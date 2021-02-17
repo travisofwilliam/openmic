@@ -41,7 +41,6 @@ const Index = () => {
                         margin-top: 25px;
                     }
                     .mainimg {
-                      background-image: url(${require("../images/microphone.jpg")});
                       background-repeat: no-repeat;
                       background-attachment: fixed;
                       background-position: center;
