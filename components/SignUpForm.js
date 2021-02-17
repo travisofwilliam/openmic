@@ -49,7 +49,7 @@ const SignUpForm = ({ signedUp, setSignedUp, taken, setTaken }) => {
                             <input type="text" value={artist} placeholder="Band/Artist" onChange={(e) => {setArtist(e.target.value)}} className="mb-4" />
                             <br/>
                                 <div className="dropdown">
-                                    <select className="btn btn-secondary dropdown-toggle" onChange={(e) => {setTimeSlot(e.target.value)}}>
+                                    <select className="custom-select btn btn-secondary dropdown-toggle" onChange={(e) => {setTimeSlot(e.target.value)}}>
                                         <option value="--">Time Slot</option>
                                         <option value="5:45pm - 6:00pm" disabled={ taken.includes('5:45pm - 6:00pm') ? true : null }>5:45pm - 6:00pm</option>
                                         <option value="6:00pm - 6:15pm" disabled={ taken.includes('6:00pm - 6:15pm') ? true : null }>6:00pm - 6:15pm</option>
