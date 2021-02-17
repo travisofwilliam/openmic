@@ -1,7 +1,10 @@
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Open Mic Sign Up</a>
+            <a className="navbar-brand" href="#">
+                <img src={require('../images/blackplague.jpeg')} width="30" height="30" className="mr-3" alt=""/>
+                <small>Open Mic</small>
+            </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
