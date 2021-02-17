@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+    .main-img {
+      background-image: url("images/alt-audience.jpg");
+      height: 600px;
+      max-width: 200px;
+    }
+  }
+
+  .main-img {
+    background-image: url("images/audience.png");
+    background-size: cover;
+    height: 600px;
+    max-width: none;
+  }
